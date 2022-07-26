@@ -1,0 +1,165 @@
+@font-face {
+  font-family: fontGizmo;
+  src: url(FontsFree-Net-Gilroy-Light.ttf);
+}
+
+
+
+.flexer {
+  display: flex;
+  align-items: center
+}
+
+#navfont {
+  font-family: fontGizmo;
+  color: white;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+#navv {
+  max-width: 20%;
+}
+
+.subtitle-home {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.subtitle-home h2 {
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+.subtitle-home p {
+  font-size: 18px;
+}
+
+.subtitle-home span {
+  color: aqua;
+}
+
+.box-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-right a.white:link {
+  color: white;
+}
+
+.first-intro {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.first-intro p {
+  position: absolute;
+  color: aqua;
+}
+
+.home-area {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.home-area ol {
+  list-style-type: none;
+}
+
+.home-area ol li a:link {
+  color: #fff;
+}
+
+.home-area .the-links ol {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+}
+
+.the-links {
+  margin-right: 35px;
+}
+
+.home-area .the-links a {
+  margin-right: 35px;
+}
+
+.home-area .the-links {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.3rem 0;
+}
+
+.home-area .the-links a:not(.btn) {
+  font-weight: 600;
+  color: var(--white-color) !important;
+}
+
+.home-area .line {
+  width: auto;
+  height: 0.75px;
+  background-color: #FFFFFF1F;
+  font-weight: lighter;
+}
+
+.containeer {
+  max-width: 1600px;
+}
+
+.inner-content {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.item-info-list {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.elementor-section {
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: #FFFFFF1F;
+  background: transition 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 20px 0px 20px 0px;
+}
+
+.elementor-icon-list-items.elementor-inline-items {
+
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.elementor-widget .elementor-icon-list-items.elementor-inline-items {
+  margin-right: -8px;
+  margin-left: 200px;
+}
+
+.fas fa-caret-right {
+  width: 1.25em;
+  font-size: var(--e-icon-list-icon-size);
+}
+
+.fa,
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.svg-inline--fa {
+
+  color: white;
+}
